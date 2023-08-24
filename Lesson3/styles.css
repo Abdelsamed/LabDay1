@@ -1,0 +1,160 @@
+.but1
+{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    font: bold;
+    cursor: pointer;
+    transition: opacity 0.15s;  
+    /*شفافيه اللون لما الماوس يكون واقف عليه*/
+}
+
+.but1:hover {
+  opacity: 0.8;
+}
+.but2
+{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 15px; 
+    border: none ;  
+    font-size: larger;
+    font: bolder; 
+    cursor: pointer;   
+}
+.but2:hover {
+    background-color: rgb(245, 205, 3);
+  }
+.but3
+{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    margin: 10px;
+    padding:10px 15px ;
+    border-radius: 3px;
+    border: none;
+    font: bolder;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+
+}
+.but3:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+  }
+.but4
+{
+    
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px 25px;
+    background-color: rgb(121, 82, 179);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 6px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+.but4:hover {
+    background-color: rgb(99, 60, 156);
+  }
+.but5
+{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 25px;
+    background-color: white;
+    border:1px solid gray;
+    color: gray;
+    cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
+}
+.but5:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+.but6
+{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.but6:hover {
+    background-color: rgb(2, 70, 138);
+  }
+.but7
+{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(10, 102, 194);
+    cursor: pointer;
+    transition: background-color 0.15s,
+    border-width 0.15s;
+}
+.but7:hover {
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+}
+a
+{
+    color: rgb(0, 113, 133); /*main colour that appears
+}
+a:hover {
+    color: rgb(199, 81, 31); /*temperary colour when click icon on */
+  }
+.p1
+{ 
+    font-size: 28px;
+    font-weight: bold;    
+}
+#p2
+{
+    color: rgb(0, 136, 0);
+    font-weight: bold;
+}
+.butt1
+{
+    background-color: rgb(249, 217, 76);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.butt1:hover {
+    background-color: rgb(247, 202, 0);
+}
+/* active button set as clickable but */
+.butt1:active {
+    opacity: 0.5;
+}
+.butt2
+{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.butt2:hover
+{
+    background-color: rgb(250, 137, 0);
+}
+.butt2:active
+{
+    opacity: 0.5;
+}
+/* if we made :hover class without any attribute affect whole page */

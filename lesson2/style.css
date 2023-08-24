@@ -1,0 +1,75 @@
+.but1
+{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    font: bold;
+
+}
+.but2
+{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 15px; 
+    border: none ;  
+    font-size: larger;
+    font: bolder; 
+
+    
+    
+    
+}
+.but3
+{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    margin: 10px;
+    padding:10px 15px ;
+    border-radius: 3px;
+    border: none;
+    font: bolder;
+
+
+}
+.but4
+{
+    
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px 25px;
+    background-color: rgb(121, 82, 179);
+    border: none;
+    color: white;
+
+}
+.but5
+{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 25px;
+    background-color: white;
+    border:1px solid gray;
+    color: gray;
+
+
+}
+.but6
+{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+.but7
+{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(10, 102, 194);
+}

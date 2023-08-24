@@ -1,0 +1,121 @@
+.L4
+{
+background-color: snow;
+padding: 10px;
+margin: 10px;
+}
+.h1L4
+{
+font-style: italic;
+}
+.p1L4
+{
+font-size: 50px;
+}
+.tweet-button {
+background-color: rgb(29, 155, 240);
+color: white;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right: 16px;
+border-radius: 18px;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+margin-left: 8px;
+transition: box-shadow 0.15s;
+vertical-align: top;
+}
+.tweet-button:hover
+{
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.subscribe-button 
+{
+background-color: rgb(204, 0, 0);
+color: white;
+border: none;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right: 16px;
+transition: opacity 0.15s;
+vertical-align: top;
+}
+.L4p3
+{
+margin-left: 8px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 20px;
+}
+.stretch-button {
+background-color: green;
+color: white;
+border: none;
+font-size: 18px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 15px;
+cursor: pointer;
+transition: padding-top 1s,
+padding-bottom 1s,
+padding-left 1s,
+padding-right 1s;
+}
+.stretch-button:hover 
+{
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 36px;
+padding-right: 36px;
+}
+.shadow-button 
+{
+background-color: green;
+color: white;
+border: none;
+font-size: 18px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+padding-right: 16px;
+cursor: pointer;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.shadow-button:active
+{
+margin-top: 3px;
+margin-left: 3px;
+box-shadow: none;
+}
+.but
+{
+margin: 15px;
+background-color: green;
+color: white;
+border: none;
+font-size: 18px;
+padding-top: 8px;
+padding-bottom: 8px;
+cursor: pointer;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 10px;
+margin-right: 10px;
+transition: padding 0.15s,
+margin 0.15s;
+}
+.but:hover {
+padding-left: 25px;
+padding-right: 25px;
+margin-left: 0px;
+margin-right: 0px;
+}
